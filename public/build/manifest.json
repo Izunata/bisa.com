@@ -1,0 +1,95 @@
+{
+  "_AppShell-D7717DZ9.js": {
+    "file": "assets/AppShell-D7717DZ9.js",
+    "name": "AppShell",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_proxy-B_4Rf4gU.js": {
+    "file": "assets/proxy-B_4Rf4gU.js",
+    "name": "proxy",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/js/Pages/Auth/Login.jsx": {
+    "file": "assets/Login-BJNefIJA.js",
+    "name": "Login",
+    "src": "resources/js/Pages/Auth/Login.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppShell-D7717DZ9.js"
+    ]
+  },
+  "resources/js/Pages/Auth/Register.jsx": {
+    "file": "assets/Register-QMCPJyeI.js",
+    "name": "Register",
+    "src": "resources/js/Pages/Auth/Register.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppShell-D7717DZ9.js"
+    ]
+  },
+  "resources/js/Pages/Dashboard.jsx": {
+    "file": "assets/Dashboard-DevZ9pYK.js",
+    "name": "Dashboard",
+    "src": "resources/js/Pages/Dashboard.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppShell-D7717DZ9.js"
+    ]
+  },
+  "resources/js/Pages/Home.jsx": {
+    "file": "assets/Home-BBlDLbog.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppShell-D7717DZ9.js",
+      "_proxy-B_4Rf4gU.js"
+    ]
+  },
+  "resources/js/Pages/Skills/Index.jsx": {
+    "file": "assets/Index-tGAPoQC5.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Skills/Index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppShell-D7717DZ9.js",
+      "_proxy-B_4Rf4gU.js"
+    ]
+  },
+  "resources/js/Pages/Skills/Show.jsx": {
+    "file": "assets/Show-Cx9oDlzy.js",
+    "name": "Show",
+    "src": "resources/js/Pages/Skills/Show.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_AppShell-D7717DZ9.js"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-DdJ_TNWo.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Auth/Login.jsx",
+      "resources/js/Pages/Auth/Register.jsx",
+      "resources/js/Pages/Dashboard.jsx",
+      "resources/js/Pages/Home.jsx",
+      "resources/js/Pages/Skills/Index.jsx",
+      "resources/js/Pages/Skills/Show.jsx"
+    ],
+    "css": [
+      "assets/app-XGqSFlxI.css"
+    ]
+  }
+}
